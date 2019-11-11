@@ -1,0 +1,111 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin:0;
+}
+.main-header{
+    background:#19b84c;
+    color:#19b84c;
+    padding:8px 16px;
+    /* position:fixed; */
+    width:100%;
+    top:0
+
+}
+.main-header > div{
+    display:inline-block;
+}
+.main-header__brand{
+    text-decoration :none;
+    vertical-align:middle;
+    color:#0e4f1f;
+    font-size:27px;
+    font-weight:bold; 
+
+}
+.main-nav{
+    display: inline-block;
+    text-align:right;
+    width:calc(100% - 103px);
+}
+.main-nav__items{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+.main-nav__item{
+    display:inline-block;
+    margin:0 16px;
+}
+.main-nav__item a{
+    color:#0e4f1f;
+    text-decoration:none;
+    padding:3px;
+}
+.main-nav__item--cta{
+   background: red;
+   padding:8px;
+   border-radius:8px;
+}
+.main-nav__item--cta a{
+    color:white;
+}
+.background{
+    background : url("../images/plans-background.jpg");
+    position:fixed;
+    z-index:-1;
+    width:100%;
+    height:100%;
+}
+.packages{
+    width:80%;
+    margin:16px 0;
+    border:1px solid #0e4f1f;
+    border-left:none;
+}
+.packages a{
+    color:inherit;
+    text-decoration:none;
+    padding:32px;
+    display: block;
+}
+.packages-subtitle{
+    color:#979797;
+}
+
+.packages-info{
+    color:black;
+    border:1px solid #0e4f1f;
+    padding:16px;
+    background:white;
+    font-size:20px;
+}
+.clearfix{
+    clear:both;
+}
+
+#plus{
+    background:rgba(213,255,220,0.95);
+}
+#free{
+    float:right;
+    border-left:1px solid #0e4f1f;
+    border-right:none;
+    text-align: center;
+    background:rgb(234,252,237,0.95);
+
+}
+
+#premium{
+    background:rgb(14,79,31,0.95);
+}
+
+#premium .packages-title{
+    color:white;
+}
+
+#premium .packages__subtitle{
+    color:#bbb;
+}
+
+
+
